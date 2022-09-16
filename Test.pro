@@ -36,10 +36,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    safequeue.cpp \
     ui/hiscombobox.cpp
 
 HEADERS += \
     mainwindow.h \
+    safequeue.h \
+    tsafequeue.h \
     ui/hiscombobox.h
 
 FORMS += \

@@ -17,6 +17,7 @@ public:
 
 public slots:
     void on_pushButtonQSettingsUtf8_clicked();
+    void on_pushButtonTSafeQueue_clicked();
 private:
     Ui::MainWindow *ui;
 };
